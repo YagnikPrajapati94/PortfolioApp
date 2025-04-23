@@ -9,7 +9,7 @@ body{
   font-weight: 700 !important;
 }
 .bgcolor{
-  background-color: #3956de12;
+  background-color: #2f52ee24;
 }
 .nav-color .nav-link{
   color:#9b9bae ;
@@ -24,6 +24,10 @@ body{
 /* 1. Text with white background + black border */
 .text-highlight-white {
   -webkit-text-stroke: 1px black !important;
+  color: transparent !important;
+}
+.text-highlight-dark {
+  -webkit-text-stroke: 1px rgb(255, 255, 255) !important;
   color: transparent !important;
 }
 /* ---------------------------- */
@@ -146,5 +150,46 @@ body{
 .button:hover .button_lg::after {
   background-color: #fff;
 }
+
+
+
+/* -----------------------cusrsor css  */
+/* Main red circle */
+.custom-cursor {
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+/* Inner red dot */
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+/* Click ripple */
+.click-ripple {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border: 2px solid red;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9998;
+  opacity: 0.6;
+}
+
 
 

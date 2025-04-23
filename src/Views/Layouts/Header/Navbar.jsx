@@ -12,12 +12,12 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto nav-color mb-2 gap-4 mb-lg-0">
+                        <ul className="navbar-nav ms-auto nav-color  gap-4 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
+                                <a className="nav-link" href='#' >About Us</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Services</a>
