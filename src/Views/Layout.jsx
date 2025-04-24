@@ -5,7 +5,7 @@ const Layout = ({children}) => {
 
   return (
     <>
-      <header>
+      <header className='sticky-top'>
         <Navbar />
       </header>
       <main>
